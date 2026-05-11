@@ -191,16 +191,6 @@ class SettingsScreen extends StatelessWidget {
               secondary: const Icon(Icons.thermostat),
             ),
           ),
-          const SizedBox(height: 16),
-          const Card(
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Nota: REST Countries y Open-Meteo no requieren API key, '
-                'asi que este proyecto no necesita archivo .env.',
-              ),
-            ),
-          ),
         ],
       ),
     );
